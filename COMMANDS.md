@@ -91,8 +91,8 @@ Use for final acceptance.
 
 The verdict must be exactly one of:
 
-- `通过`
-- `有条件通过`
-- `不通过`
+- `Pass`
+- `Conditional Pass`
+- `Fail`
 
 Every passed criterion needs evidence.

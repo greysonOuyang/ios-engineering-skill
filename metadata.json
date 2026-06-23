@@ -1,0 +1,19 @@
+{
+  "name": "ios-engineering",
+  "version": "1.0.0",
+  "description": "A reusable AI skill for end-to-end SwiftUI and iOS product engineering, including planning, implementation, review, debugging, testing, UI validation, audits, and evidence-based verification.",
+  "license": "MIT",
+  "repository": "https://github.com/greysonOuyang/ios-engineering-skill",
+  "author": "Greyson Ouyang",
+  "keywords": [
+    "ios",
+    "swiftui",
+    "swift",
+    "mobile",
+    "ai-skill",
+    "agent-skill",
+    "codex",
+    "claude-code",
+    "xctest"
+  ]
+}

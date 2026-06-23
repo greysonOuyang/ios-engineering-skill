@@ -1,0 +1,53 @@
+<svg width="1200" height="760" viewBox="0 0 1200 760" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Workflow preview</title>
+  <desc id="desc">A stylized screenshot showing an example iOS implementation workflow command and structured output.</desc>
+  <defs>
+    <linearGradient id="bg" x1="60" y1="40" x2="1140" y2="720" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#111827"/>
+      <stop offset="1" stop-color="#0F3D3E"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="760" rx="28" fill="url(#bg)"/>
+  <rect x="42" y="44" width="1116" height="672" rx="26" fill="#020617E6" stroke="#FFFFFF12"/>
+  <rect x="42" y="44" width="1116" height="66" rx="26" fill="#020617"/>
+  <circle cx="84" cy="77" r="7" fill="#FB7185"/>
+  <circle cx="108" cy="77" r="7" fill="#FBBF24"/>
+  <circle cx="132" cy="77" r="7" fill="#4ADE80"/>
+  <text x="164" y="83" fill="#E2E8F0" font-family="SF Pro Text, Segoe UI, sans-serif" font-size="20" font-weight="600">Example workflow preview</text>
+
+  <rect x="74" y="138" width="1052" height="92" rx="20" fill="#0F172A" stroke="#1E293B"/>
+  <text x="102" y="178" fill="#2DD4BF" font-family="SFMono-Regular, Menlo, monospace" font-size="22" font-weight="700">$ /ios implement ISS-142 --focus=data</text>
+  <text x="102" y="208" fill="#94A3B8" font-family="SF Pro Text, Segoe UI, sans-serif" font-size="17">Scoped production change with data ownership, persistence, and regression checks.</text>
+
+  <rect x="74" y="262" width="322" height="176" rx="22" fill="url(#panel)" stroke="#F59E0B44"/>
+  <text x="102" y="306" fill="#FEF3C7" font-family="SF Pro Text, Segoe UI, sans-serif" font-size="24" font-weight="700">Scope</text>
+  <text x="102" y="344" fill="#E2E8F0" font-family="SF Pro Text, Segoe UI, sans-serif" font-size="18">- Preserve creation flow</text>
+  <text x="102" y="374" fill="#E2E8F0" font-family="SF Pro Text, Segoe UI, sans-serif" font-size="18">- Add edit support for recurring plans</text>
+  <text x="102" y="404" fill="#E2E8F0" font-family="SF Pro Text, Segoe UI, sans-serif" font-size="18">- Do not fork a parallel source of truth</text>
+
+  <rect x="438" y="262" width="322" height="176" rx="22" fill="url(#panel)" stroke="#2DD4BF44"/>
+  <text x="466" y="306" fill="#CCFBF1" font-family="SF Pro Text, Segoe UI, sans-serif" font-size="24" font-weight="700">Owner flow</text>
+  <text x="466" y="344" fill="#E2E8F0" font-family="SF Pro Text, Segoe UI, sans-serif" font-size="18">UI intent -> validation -> persistence</text>
+  <text x="466" y="374" fill="#E2E8F0" font-family="SF Pro Text, Segoe UI, sans-serif" font-size="18">-> derived data refresh -> dependent UI</text>
+  <text x="466" y="404" fill="#E2E8F0" font-family="SF Pro Text, Segoe UI, sans-serif" font-size="18">-> error handling -> revalidation</text>
+
+  <rect x="802" y="262" width="324" height="176" rx="22" fill="url(#panel)" stroke="#67E8F944"/>
+  <text x="830" y="306" fill="#E0F2FE" font-family="SF Pro Text, Segoe UI, sans-serif" font-size="24" font-weight="700">Validation</text>
+  <text x="830" y="344" fill="#E2E8F0" font-family="SF Pro Text, Segoe UI, sans-serif" font-size="18">- Narrow reproduction first</text>
+  <text x="830" y="374" fill="#E2E8F0" font-family="SF Pro Text, Segoe UI, sans-serif" font-size="18">- Re-run affected feature flow</text>
+  <text x="830" y="404" fill="#E2E8F0" font-family="SF Pro Text, Segoe UI, sans-serif" font-size="18">- Expand only if risk evidence requires it</text>
+
+  <rect x="74" y="474" width="1052" height="190" rx="22" fill="#0B1120" stroke="#1E293B"/>
+  <text x="102" y="518" fill="#F8FAFC" font-family="SF Pro Text, Segoe UI, sans-serif" font-size="24" font-weight="700">Expected output shape</text>
+  <text x="102" y="558" fill="#94A3B8" font-family="SFMono-Regular, Menlo, monospace" font-size="18">scope examined</text>
+  <text x="338" y="558" fill="#F8FAFC" font-family="SF Pro Text, Segoe UI, sans-serif" font-size="18">Recurring plan editing surfaces and dependent consumers</text>
+  <text x="102" y="592" fill="#94A3B8" font-family="SFMono-Regular, Menlo, monospace" font-size="18">owner decision</text>
+  <text x="338" y="592" fill="#F8FAFC" font-family="SF Pro Text, Segoe UI, sans-serif" font-size="18">One authoritative write path through the existing store/service layer</text>
+  <text x="102" y="626" fill="#94A3B8" font-family="SFMono-Regular, Menlo, monospace" font-size="18">evidence</text>
+  <text x="338" y="626" fill="#F8FAFC" font-family="SF Pro Text, Segoe UI, sans-serif" font-size="18">Diff, focused validation, affected-surface checks, and explicit remaining risks</text>
+</svg>

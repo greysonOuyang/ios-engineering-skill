@@ -1,0 +1,45 @@
+<svg width="1200" height="760" viewBox="0 0 1200 760" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Verification preview</title>
+  <desc id="desc">A stylized screenshot showing an example iOS verification verdict with evidence and remaining risks.</desc>
+  <defs>
+    <linearGradient id="bg" x1="90" y1="60" x2="1120" y2="700" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1F2937"/>
+      <stop offset="1" stop-color="#0F766E"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="760" rx="28" fill="url(#bg)"/>
+  <rect x="42" y="44" width="1116" height="672" rx="26" fill="#020617E6" stroke="#FFFFFF12"/>
+  <rect x="42" y="44" width="1116" height="66" rx="26" fill="#020617"/>
+  <circle cx="84" cy="77" r="7" fill="#FB7185"/>
+  <circle cx="108" cy="77" r="7" fill="#FBBF24"/>
+  <circle cx="132" cy="77" r="7" fill="#4ADE80"/>
+  <text x="164" y="83" fill="#E2E8F0" font-family="SF Pro Text, Segoe UI, sans-serif" font-size="20" font-weight="600">Verification report preview</text>
+
+  <rect x="74" y="138" width="1052" height="90" rx="20" fill="#0F172A" stroke="#1E293B"/>
+  <text x="102" y="178" fill="#67E8F9" font-family="SFMono-Regular, Menlo, monospace" font-size="22" font-weight="700">$ /ios verify "Recurring plan editing is complete"</text>
+  <text x="102" y="208" fill="#94A3B8" font-family="SF Pro Text, Segoe UI, sans-serif" font-size="17">Final acceptance mode with explicit verdict, evidence, preserved behavior, and remaining unknowns.</text>
+
+  <rect x="74" y="262" width="1052" height="122" rx="22" fill="url(#card)" stroke="#2DD4BF55"/>
+  <text x="102" y="308" fill="#CCFBF1" font-family="SF Pro Text, Segoe UI, sans-serif" font-size="24" font-weight="700">Verdict</text>
+  <text x="102" y="346" fill="#F8FAFC" font-family="SF Pro Display, Segoe UI, sans-serif" font-size="40" font-weight="700">Conditional Pass</text>
+  <text x="420" y="346" fill="#94A3B8" font-family="SF Pro Text, Segoe UI, sans-serif" font-size="18">Core requirement is complete, but one follow-up validation item remains.</text>
+
+  <rect x="74" y="416" width="502" height="248" rx="22" fill="url(#card)" stroke="#F59E0B55"/>
+  <text x="102" y="460" fill="#FEF3C7" font-family="SF Pro Text, Segoe UI, sans-serif" font-size="24" font-weight="700">Evidence</text>
+  <text x="102" y="500" fill="#E2E8F0" font-family="SF Pro Text, Segoe UI, sans-serif" font-size="18">- Edit path writes through the existing store owner</text>
+  <text x="102" y="532" fill="#E2E8F0" font-family="SF Pro Text, Segoe UI, sans-serif" font-size="18">- Dependent timeline and detail views refresh from source of truth</text>
+  <text x="102" y="564" fill="#E2E8F0" font-family="SF Pro Text, Segoe UI, sans-serif" font-size="18">- Focused reproduction and regression checks completed</text>
+  <text x="102" y="596" fill="#E2E8F0" font-family="SF Pro Text, Segoe UI, sans-serif" font-size="18">- Preserved creation behavior and non-goals are explicit</text>
+
+  <rect x="624" y="416" width="502" height="248" rx="22" fill="url(#card)" stroke="#67E8F955"/>
+  <text x="652" y="460" fill="#E0F2FE" font-family="SF Pro Text, Segoe UI, sans-serif" font-size="24" font-weight="700">Remaining checks</text>
+  <text x="652" y="500" fill="#E2E8F0" font-family="SF Pro Text, Segoe UI, sans-serif" font-size="18">- Run release-candidate validation on the final build configuration</text>
+  <text x="652" y="532" fill="#E2E8F0" font-family="SF Pro Text, Segoe UI, sans-serif" font-size="18">- Confirm notification side effects when edited plans cross dates</text>
+  <text x="652" y="564" fill="#E2E8F0" font-family="SF Pro Text, Segoe UI, sans-serif" font-size="18">- Document one known environment-dependent test gap, if still open</text>
+  <text x="652" y="596" fill="#E2E8F0" font-family="SF Pro Text, Segoe UI, sans-serif" font-size="18">- Promote to Pass after the final evidence is attached</text>
+</svg>

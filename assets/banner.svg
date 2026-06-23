@@ -1,0 +1,92 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">iOS Engineering banner</title>
+  <desc id="desc">A hero banner for the ios-engineering open-source skill with product-engineering workflow highlights.</desc>
+  <defs>
+    <linearGradient id="bg" x1="80" y1="48" x2="1200" y2="600" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A"/>
+      <stop offset="0.55" stop-color="#102A43"/>
+      <stop offset="1" stop-color="#0B3B38"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#F59E0B"/>
+      <stop offset="1" stop-color="#2DD4BF"/>
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="1280" height="640" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="20" stdDeviation="28" flood-color="#020617" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="640" rx="32" fill="url(#bg)"/>
+  <circle cx="1110" cy="122" r="170" fill="#0EA5A420" stroke="#67E8F920" stroke-width="2"/>
+  <circle cx="1180" cy="38" r="92" fill="#F59E0B15"/>
+  <circle cx="74" cy="582" r="164" fill="#14B8A61A"/>
+
+  <g opacity="0.08">
+    <path d="M64 132H1216" stroke="white"/>
+    <path d="M64 196H1216" stroke="white"/>
+    <path d="M64 260H1216" stroke="white"/>
+    <path d="M64 324H1216" stroke="white"/>
+    <path d="M64 388H1216" stroke="white"/>
+    <path d="M64 452H1216" stroke="white"/>
+    <path d="M64 516H1216" stroke="white"/>
+  </g>
+
+  <g>
+    <rect x="76" y="78" width="170" height="34" rx="17" fill="#FFFFFF14" stroke="#FFFFFF20"/>
+    <text x="102" y="100" fill="#F8FAFC" font-family="SF Pro Display, Segoe UI, sans-serif" font-size="15" font-weight="600" letter-spacing="1.8">OPEN SOURCE SKILL</text>
+
+    <text x="76" y="190" fill="#F8FAFC" font-family="SF Pro Display, Segoe UI, sans-serif" font-size="76" font-weight="700">iOS Engineering</text>
+    <text x="76" y="248" fill="#CBD5E1" font-family="SF Pro Text, Segoe UI, sans-serif" font-size="27" font-weight="500">
+      Plan, implement, review, debug, test, and verify
+    </text>
+    <text x="76" y="286" fill="#CBD5E1" font-family="SF Pro Text, Segoe UI, sans-serif" font-size="27" font-weight="500">
+      SwiftUI product work with one reusable AI skill.
+    </text>
+
+    <rect x="76" y="340" width="124" height="42" rx="21" fill="#F59E0B22" stroke="#F59E0B55"/>
+    <text x="107" y="366" fill="#FEF3C7" font-family="SF Pro Text, Segoe UI, sans-serif" font-size="16" font-weight="600">SwiftUI</text>
+
+    <rect x="214" y="340" width="120" height="42" rx="21" fill="#14B8A622" stroke="#2DD4BF55"/>
+    <text x="247" y="366" fill="#CCFBF1" font-family="SF Pro Text, Segoe UI, sans-serif" font-size="16" font-weight="600">XCTest</text>
+
+    <rect x="348" y="340" width="156" height="42" rx="21" fill="#0EA5E922" stroke="#67E8F955"/>
+    <text x="378" y="366" fill="#E0F2FE" font-family="SF Pro Text, Segoe UI, sans-serif" font-size="16" font-weight="600">Visual QA</text>
+
+    <rect x="518" y="340" width="216" height="42" rx="21" fill="#FFFFFF12" stroke="#FFFFFF24"/>
+    <text x="548" y="366" fill="#E2E8F0" font-family="SF Pro Text, Segoe UI, sans-serif" font-size="16" font-weight="600">Release Verification</text>
+
+    <text x="76" y="454" fill="#94A3B8" font-family="SF Pro Text, Segoe UI, sans-serif" font-size="18" font-weight="500">
+      Built for skill runtimes that load SKILL.md, references, templates, and scripts.
+    </text>
+    <text x="76" y="490" fill="#94A3B8" font-family="SF Pro Text, Segoe UI, sans-serif" font-size="18" font-weight="500">
+      Product-specific names, build schemes, and domain rules stay in the target repository.
+    </text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="776" y="78" width="430" height="484" rx="28" fill="#020617D8" stroke="#FFFFFF12"/>
+    <rect x="776" y="78" width="430" height="74" rx="28" fill="#020617"/>
+    <circle cx="820" cy="116" r="7" fill="#F87171"/>
+    <circle cx="844" cy="116" r="7" fill="#FBBF24"/>
+    <circle cx="868" cy="116" r="7" fill="#34D399"/>
+    <text x="900" y="122" fill="#E2E8F0" font-family="SF Pro Text, Segoe UI, sans-serif" font-size="18" font-weight="600">Command Surface</text>
+
+    <rect x="808" y="176" width="366" height="182" rx="20" fill="#0F172A" stroke="#1E293B"/>
+    <text x="832" y="218" fill="#2DD4BF" font-family="SFMono-Regular, Menlo, monospace" font-size="20" font-weight="700">/ios plan</text>
+    <text x="832" y="252" fill="#F8FAFC" font-family="SFMono-Regular, Menlo, monospace" font-size="18">/ios implement</text>
+    <text x="832" y="286" fill="#F8FAFC" font-family="SFMono-Regular, Menlo, monospace" font-size="18">/ios review</text>
+    <text x="832" y="320" fill="#F8FAFC" font-family="SFMono-Regular, Menlo, monospace" font-size="18">/ios debug</text>
+    <text x="992" y="218" fill="#F8FAFC" font-family="SFMono-Regular, Menlo, monospace" font-size="18">/ios ui</text>
+    <text x="992" y="252" fill="#F8FAFC" font-family="SFMono-Regular, Menlo, monospace" font-size="18">/ios test feature</text>
+    <text x="992" y="286" fill="#F8FAFC" font-family="SFMono-Regular, Menlo, monospace" font-size="18">/ios audit app</text>
+    <text x="992" y="320" fill="#F8FAFC" font-family="SFMono-Regular, Menlo, monospace" font-size="18">/ios verify</text>
+
+    <rect x="808" y="388" width="366" height="142" rx="20" fill="#0B3B38" stroke="#1D4ED8" stroke-opacity="0.18"/>
+    <text x="832" y="426" fill="#F8FAFC" font-family="SF Pro Text, Segoe UI, sans-serif" font-size="20" font-weight="600">Reusable building blocks</text>
+    <text x="832" y="460" fill="#D1FAE5" font-family="SFMono-Regular, Menlo, monospace" font-size="17">modes/       -> focused workflows</text>
+    <text x="832" y="488" fill="#D1FAE5" font-family="SFMono-Regular, Menlo, monospace" font-size="17">references/  -> engineering rules</text>
+    <text x="832" y="516" fill="#D1FAE5" font-family="SFMono-Regular, Menlo, monospace" font-size="17">templates/   -> durable outputs</text>
+  </g>
+
+  <rect x="76" y="536" width="306" height="2" fill="url(#accent)"/>
+</svg>
